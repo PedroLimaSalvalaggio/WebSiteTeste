@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Perfil</title>
+    <link rel="shortcut icon" href="./imagens/favicon.ico" type="image/x-icon">
+    <fieldset>    
+        <a href="./index.html">Home</a>
+        <a href="./Perfil.html">Perfil</a>
+        <a href="./Contatos.html">Contatos</a>
+    </fieldset>
+    <h1>Perfil</h1>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        a{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <img src="./imagens/usuario.jpg" alt="" width="200"> 
+    <h3>Nome:</h3><input type="text">
+    <h3>Idade:</h3><input type="number">
+    <h3>Sexo:</h3>
+    <input type="radio" name="sexo" value="Masculino">Masculino
+    <input type="radio" name="sexo" value="Femenino">Femenino
+    <h3>Bio:</h3>
+    <textarea name="bio" id="" cols="70" rows="5"></textarea>
+    <br>
+    <br>
+    <form action="./Perfil.html" method="get">
+        Email:
+        <input type="email">
+        Senha:
+        <input type="password">
+        <br>
+        <br>
+        <input type="submit" value="Finalizar">
+    </form>
+</body>
+</html>
